@@ -1,0 +1,19 @@
+{
+  "name": "js-data-processor",
+  "version": "1.0.0",
+  "description": "A simple library to process your data as you need when the data reaches the limit of length or time.",
+  "main": "dist/DataProcessor.js",
+  "types": "./types/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc"
+  },
+  "author": "@fedev",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
