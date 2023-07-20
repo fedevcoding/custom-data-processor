@@ -1,9 +1,31 @@
 {
   "name": "js-data-processor",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A simple library to process your data as you need when the data reaches the limit of length or time.",
   "main": "dist/DataProcessor.js",
   "types": "./types/index.d.ts",
+  "keywords": [
+    "data processor",
+    "js data processor",
+    "ts data processor",
+    "typescript data processor",
+    "javascript data processor",
+    "data",
+    "processor",
+    "process",
+    "limit",
+    "length",
+    "time",
+    "queue",
+    "queueing",
+    "queueing data",
+    "queueing data processor",
+    "queueing processor",
+    "queueing process",
+    "queueing data process",
+    "queueing data processor",
+    "queueing data pr"
+  ],
   "repository": {
     "url": "https://github.com/fedevcoding/js-data-processor",
     "type": "git"
