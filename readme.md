@@ -2,13 +2,21 @@
 
 DataProcessor is a utility class for processing and buffering data before sending it to a database or performing other actions based on certain thresholds.
 
-## Installation
+<br>
+
+# My YouTube: [Fedevcoding](https://www.youtube.com/@fedevcoding/videos) 🫂
+
+<br>
+
+# Installation
 
 You can install the DataProcessor library using npm:
 
-`npm install data-processor`
+```bash
+npm install data-processor
+```
 
-## Usage
+# Usage
 
 To use the DataProcessor library in your project, import the `DataProcessor` class and create an instance:
 
@@ -43,7 +51,7 @@ new DataProcessor<string>({
 });
 ```
 
-#### Options
+### Options
 
 - `dataCallback` (required): A callback function that will be called with the data as soon as the data reaches the limit of length or time.
 - `dataThreshold` (default 1000): Length of array where the data will be processed if the time is not expired yet.
