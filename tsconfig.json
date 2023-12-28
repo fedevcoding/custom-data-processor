@@ -8,7 +8,6 @@
     "noImplicitAny": true,
     "declaration": true,
     "noUnusedLocals": false,
-    "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "noUncheckedIndexedAccess": true,
     "noEmit": true
