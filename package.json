@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple library to process your data as you need when the data reaches the limit of length or time.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

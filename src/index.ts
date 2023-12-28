@@ -14,8 +14,8 @@ export class DataProcessor<DataType> {
     dataThreshold?: number;
     timeThreshold?: number;
   }) {
-    this.dataThreshold = dataThreshold || 1000;
-    this.timeThreshold = timeThreshold || 1000;
+    this.dataThreshold = dataThreshold ?? 1000;
+    this.timeThreshold = timeThreshold ?? 1000;
     this.dataBuffer = [];
     this.dataTimer = null;
     this.dataCallback = dataCallback;
