@@ -9,7 +9,7 @@ Data processor is a utility class for processing and buffering data before sendi
 You can install the DataProcessor library using npm:
 
 ```bash
-npm i js-data-processor
+npm i custom-data-processor
 ```
 
 # Usage
@@ -17,7 +17,7 @@ npm i js-data-processor
 To use the DataProcessor library in your project, import the `DataProcessor` class and create an instance:
 
 ```javascript
-import { DataProcessor } from "js-data-processor";
+import { DataProcessor } from "custom-data-processor";
 
 // Create a data processor instance
 const processor = new DataProcessor({

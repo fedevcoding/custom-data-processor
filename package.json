@@ -1,5 +1,5 @@
 {
-  "name": "js-data-processor",
+  "name": "custom-data-processor",
   "publishConfig": {
     "access": "public"
   },
@@ -31,7 +31,7 @@
     "queueing data pr"
   ],
   "repository": {
-    "url": "https://github.com/fedevcoding/js-data-processor",
+    "url": "https://github.com/fedevcoding/custom-data-processor",
     "type": "git"
   },
   "scripts": {
