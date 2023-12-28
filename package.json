@@ -33,11 +33,13 @@
   },
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
-    "lint": "tsc && eslint . --ext .ts"
+    "lint": "tsc && eslint . --ext .ts",
+    "release": "npm run build && changeset publish"
   },
   "author": "@fedevcoding",
   "license": "MIT",
   "devDependencies": {
+    "@changesets/cli": "^2.27.1",
     "@types/node": "^20.4.2",
     "@typescript-eslint/eslint-plugin": "^6.16.0",
     "@typescript-eslint/parser": "^6.16.0",
