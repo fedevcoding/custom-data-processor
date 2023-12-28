@@ -1,9 +1,10 @@
 {
   "name": "js-data-processor",
-  "version": "1.1.1",
+  "version": "1.0.0",
   "description": "A simple library to process your data as you need when the data reaches the limit of length or time.",
-  "main": "dist/DataProcessor.js",
-  "types": "./types/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "keywords": [
     "data processor",
     "js data processor",
@@ -31,12 +32,13 @@
     "type": "git"
   },
   "scripts": {
-    "compile": "tsc"
+    "build": "tsup src/index.ts --format cjs,esm --dts"
   },
-  "author": "@fedev",
-  "license": "ISC",
+  "author": "@fedevcoding",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.4.2",
+    "tsup": "^8.0.1",
     "typescript": "^5.1.6"
   }
 }

@@ -2,7 +2,6 @@
   "compilerOptions": {
     "target": "ES2022",
     "module": "CommonJS",
-    "outDir": "./dist",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
@@ -11,9 +10,7 @@
     "noUnusedLocals": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "baseUrl": "./",
-    "paths": {
-      "js-data-processor": ["./dist"]
-    }
+    "noUncheckedIndexedAccess": true,
+    "noEmit": true
   }
 }
