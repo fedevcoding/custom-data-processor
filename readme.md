@@ -4,10 +4,6 @@ DataProcessor is a utility class for processing and buffering data before sendin
 
 <br>
 
-# My YouTube: [Fedevcoding](https://www.youtube.com/@fedevcoding/videos) 🫂
-
-<br>
-
 # Installation
 
 You can install the DataProcessor library using npm:
