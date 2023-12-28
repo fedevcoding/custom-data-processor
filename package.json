@@ -1,5 +1,8 @@
 {
   "name": "js-data-processor",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "1.0.0",
   "description": "A simple library to process your data as you need when the data reaches the limit of length or time.",
   "main": "dist/index.js",
