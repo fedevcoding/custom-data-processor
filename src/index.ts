@@ -3,7 +3,7 @@ export class DataProcessor<DataType> {
   private timeThreshold: number;
   private dataBuffer: DataType[];
   private dataTimer: NodeJS.Timeout | null;
-  private dataCallback: (data: any) => void;
+  private dataCallback: (data: DataType[]) => void;
 
   constructor({
     dataCallback,

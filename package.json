@@ -32,12 +32,16 @@
     "type": "git"
   },
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts"
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc && eslint . --ext .ts"
   },
   "author": "@fedevcoding",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.4.2",
+    "@typescript-eslint/eslint-plugin": "^6.16.0",
+    "@typescript-eslint/parser": "^6.16.0",
+    "eslint": "^8.56.0",
     "tsup": "^8.0.1",
     "typescript": "^5.1.6"
   }
