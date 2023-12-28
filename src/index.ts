@@ -1,9 +1,17 @@
-export class DataProcessor<DataType> {
-  private dataThreshold: number;
-  private timeThreshold: number;
-  private dataBuffer: DataType[];
-  private dataTimer: NodeJS.Timeout | null;
-  private dataCallback: (data: DataType[]) => void;
+export interface DataProcessorOptions<DataType> {
+  dataCallback: (data: DataType[]) => void;
+  dataThreshold: number;
+  timeThreshold: number;
+  dataBuffer: DataType[];
+  dataTimer: NodeJS.Timeout | null;
+}
+
+export class DataProcessor<DataType> implements DataProcessorOptions<DataType> {
+  dataCallback: (data: DataType[]) => void;
+  dataThreshold: number;
+  timeThreshold: number;
+  dataBuffer: DataType[];
+  dataTimer: NodeJS.Timeout | null;
 
   constructor({
     dataCallback,
@@ -16,9 +24,10 @@ export class DataProcessor<DataType> {
   }) {
     this.dataThreshold = dataThreshold ?? 1000;
     this.timeThreshold = timeThreshold ?? 1000;
+    this.dataCallback = dataCallback;
+
     this.dataBuffer = [];
     this.dataTimer = null;
-    this.dataCallback = dataCallback;
   }
 
   public addData(data: DataType): void {
