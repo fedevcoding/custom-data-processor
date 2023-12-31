@@ -2,6 +2,8 @@
 
 Data processor is a utility class for processing and buffering data before sending it to a database or performing other actions based on certain thresholds.
 
+🩷 (please consider adding a ⭐ on github) 🩷
+
 <br>
 
 # Installation
@@ -55,4 +57,4 @@ new DataProcessor<string>({
 
 ## Authors
 
-- [@fedev](https://github.com/GitFede100)
+- [@fedev](https://github.com/fedevcoding)
