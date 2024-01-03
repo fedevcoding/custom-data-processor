@@ -37,8 +37,9 @@
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "release": "npm run build && changeset publish",
-    "lint": "tsc && eslint . --ext .ts",
-    "pretty": "prettier --write ."
+    "lint": "tsc && eslint . --ext .ts && npm run test",
+    "pretty": "prettier --write .",
+    "test": "vitest run"
   },
   "author": "@fedevcoding",
   "license": "MIT",
@@ -51,5 +52,8 @@
     "prettier": "^3.1.1",
     "tsup": "^8.0.1",
     "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "vitest": "^1.1.1"
   }
 }
